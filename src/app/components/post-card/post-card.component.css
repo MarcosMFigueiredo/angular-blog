@@ -1,0 +1,49 @@
+.container__post-card {
+  background-color: #fff;
+  width: 360px;
+  height: 395px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px -1px rgba(97,97,97,0.83);
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(97,97,97,0.83);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(97,97,97,0.83);
+}
+
+.post-card__photo > img {
+  width: 100%;
+
+}
+
+.container__content-card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.container__content-card > a {
+  text-decoration: none;
+  color: #1b1f24;
+}
+
+.container__content-card > span {
+  color: #a276ff;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.container__content-card a > h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.container__content-card a > p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0px;
+
+}
