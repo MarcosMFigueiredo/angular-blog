@@ -1,0 +1,14 @@
+<div class="container__news" [ngClass]="shadowStyle" (mouseenter)="addShadowStyle(true)"
+  (mouseleave)="addShadowStyle(false)">
+  <div class="container__news-img">
+    <img src="{{newsCover}}" alt="" width="60px" />
+  </div>
+  <div class="container__news-content">
+    <div class="container__news-title">
+      <a href="#">{{newsTitle}}</a>
+    </div>
+    <div class="container__news-date">
+      <span>{{newsDate}}</span>
+    </div>
+  </div>
+</div>

@@ -7,6 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FeaturedCardComponent } from './components/featured-card/featured-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     NavBarComponent,
     FeaturedCardComponent,
     HomeComponent,
-    PostCardComponent
+    PostCardComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
