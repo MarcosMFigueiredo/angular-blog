@@ -1,11 +1,12 @@
-
 .nav-main {
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  box-shadow: 2px 2px 5px -1px rgba(97,97,97,0.3);
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(97,97,97,0.3);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(97,97,97,0.3);
 }
 
 .menu-items {

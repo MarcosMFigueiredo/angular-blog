@@ -11,7 +11,7 @@
   </div>
   <div class="container__content-card">
     <span>{{categorie}}</span>
-    <a href="#">
+    <a [routerLink]="['content', id]">
       <h1>{{cardTitle}}</h1>
       <p>{{cardDescription}}</p>
     </a>

@@ -14,4 +14,6 @@ export class PostCardComponent {
   cardTitle: string = ''
   @Input()
   cardDescription: string = ''
+  @Input()
+  id: string = '0';
 }

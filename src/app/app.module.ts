@@ -8,6 +8,7 @@ import { FeaturedCardComponent } from './components/featured-card/featured-card.
 import { HomeComponent } from './pages/home/home.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { NewsComponent } from './components/news/news.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsComponent } from './components/news/news.component';
     FeaturedCardComponent,
     HomeComponent,
     PostCardComponent,
-    NewsComponent
+    NewsComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

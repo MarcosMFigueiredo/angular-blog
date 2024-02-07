@@ -3,15 +3,20 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-featured-card',
   templateUrl: './featured-card.component.html',
-  styleUrls: ['./featured-card.component.css', './featured-card.responsive.component.css']
+  styleUrls: [
+    './featured-card.component.css',
+    './featured-card.responsive.component.css',
+  ],
 })
 export class FeaturedCardComponent {
   @Input()
-  categorie: string = ''
+  categorie: string = '';
   @Input()
-  photoCover: string = ''
+  photoCover: string = '';
   @Input()
-  cardTitle: string = ''
+  cardTitle: string = '';
   @Input()
-  cardDescription: string = ''
+  cardDescription: string = '';
+  @Input()
+  id: string = '0';
 }
